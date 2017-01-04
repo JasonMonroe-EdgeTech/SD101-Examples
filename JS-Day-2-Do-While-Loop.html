@@ -7,8 +7,8 @@
   </head>
   <body >
     <img id="imgWelcomeBanner" src="images/no entry.jpg">
-    <span id="spnMessage"></span>
-    <button id="btnEnterPassword" onclick="enterPassword();">
+    <div id="divMessage"></div>
+    <button id="btnEnterPassword" onclick="enterPassword();">Enter Password</button>
     <script>
     function enterPassword(){
       //loop until user answers correctly
@@ -18,8 +18,9 @@
         }while (passwordGuess != "temet nosce")
 
         //display results
-        spnMessage.innerHTML = "Welcome to the page.";
+        divMessage.innerHTML = "Welcome to the page.";
         document.getElementById('imgWelcomeBanner').src = "images/temet-nosce-matrix.jpg";
+        document.getElementById('btnEnterPassword').onclick = "";
       }
     </script>
   </body>
