@@ -10,18 +10,18 @@
     <div id="divMessage"></div>
     <button id="btnEnterPassword" onclick="enterPassword();">Enter Password</button>
     <script>
-    function enterPassword(){
-      //loop until user answers correctly
-      do{
-          var passwordGuess = prompt("Halt! What is the password?")
+      function enterPassword(){
+        //loop until user answers correctly
+        do{
+            var passwordGuess = prompt("Halt! What is the password?")
 
-        }while (passwordGuess != "temet nosce")
+          }while (passwordGuess != "temet nosce")
 
-        //display results
-        divMessage.innerHTML = "Welcome to the page.";
-        document.getElementById('imgWelcomeBanner').src = "images/temet-nosce-matrix.jpg";
-        document.getElementById('btnEnterPassword').onclick = "";
-      }
+          //display results
+          divMessage.innerHTML = "Welcome to the page.";
+          document.getElementById('imgWelcomeBanner').src = "images/temet-nosce-matrix.jpg";
+          document.getElementById('btnEnterPassword').onclick = "";
+        }
     </script>
   </body>
 
