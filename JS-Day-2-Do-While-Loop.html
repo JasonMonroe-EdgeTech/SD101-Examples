@@ -8,8 +8,9 @@
   <body >
     <img id="imgWelcomeBanner" src="images/no entry.jpg">
     <span id="spnMessage"></span>
-
+    <button id="btnEnterPassword" onclick="enterPassword();">
     <script>
+    function enterPassword(){
       //loop until user answers correctly
       do{
           var passwordGuess = prompt("Halt! What is the password?")
@@ -19,6 +20,7 @@
         //display results
         spnMessage.innerHTML = "Welcome to the page.";
         document.getElementById('imgWelcomeBanner').src = "images/temet-nosce-matrix.jpg";
+      }
     </script>
   </body>
 
