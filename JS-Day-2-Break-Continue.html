@@ -13,8 +13,9 @@
       function enterPassword(){
         //loop until user answers correctly
         do{
-            var passwordGuess = prompt("Halt! What is the password?")
-
+            var passwordGuess = prompt("Halt! What is the password? Type 'Exit' to give up");
+            if(passwordGuess=="Exit")
+              break;
           }while (passwordGuess != "temet nosce");
 
           //display results
