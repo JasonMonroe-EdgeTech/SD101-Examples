@@ -1,0 +1,16 @@
+
+.panel-primary{
+  padding: 20px;
+}
+
+.container{
+  margin: 0px;
+}
+
+label:hover{
+  cursor: pointer;
+}
+
+input[type='radio']{
+  cursor: pointer;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="scripts/converter.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet"  type="text/css" href="style/main.css">
+    <title>Temperature Converter</title>
+  </head>
+  <body>
+    <div class="panel panel-primary"><p>Choose Your Conversion Type</p>
+      <div class="container">
+      <div class="row">
+        <div class="col-lg-1 radio-inline"><input type="radio" id="rdFtoC" name="rdConversion" checked="true" onclick="changeConversion('F','C');"><label for="rdFtoC">&deg F to &deg C</label></div>
+        <div class="col-lg-1 radio-inline"><input type="radio" id="rdCtoF" name="rdConversion" onclick="changeConversion('C','F');"><label for="rdCtoF">&deg C to &deg F</label></div>
+        <div class="col-lg-1 radio-inline"><input type="radio" id="rdFtoK" name="rdConversion" onclick="changeConversion('F','K');"><label for="rdFtoK">&deg F to &deg K</label></div>
+        <div class="col-lg-1 radio-inline"><input type="radio" id="rdKtoF" name="rdConversion" onclick="changeConversion('K','F');"><label for="rdKtoF">&deg K to &deg F</label></div>
+        <div class="col-lg-1 radio-inline"><input type="radio" id="rdCtoK" name="rdConversion" onclick="changeConversion('C','K');"><label for="rdCtoK">&deg C to &deg K</label></div>
+        <div class="col-lg-1 radio-inline"><input type="radio" id="rdKtoC" name="rdConversion" onclick="changeConversion('K','C');"><label for="rdKtoC">&deg K to &deg C</label></div>
+      </div>
+    </div>
+    <br/>
+      <input type="text" id="txtDeg">&deg <span id="spnDegFrom">F</span> = <span id="spnDegResult">?</span> &deg <span id="spnDegTo">C</span>
+      <br/><br/>
+      <p><button type="button" onclick="convertTemp();">Convert Temperature</button></p>
+    </div>
+  </body>
+</html>
