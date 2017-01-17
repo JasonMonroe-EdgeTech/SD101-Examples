@@ -120,13 +120,14 @@ function playerChose(playerNum) {
     //display scores
     playerScore.innerHTML = "Player - "+nPlayerWins;
     cpuScore.innerHTML = "Computer - "+nCpuWins;
-
+    declareWinner.style.border = "2px solid green";
 }
 
 function playAgain(){
   boolImageCycle = true;
   imgPlayerChoice.src = "./images/userDefault.jpg";
   declareWinner.innerHTML = "&darr;Make a choice below&darr;";
+  declareWinner.style.border = "2px solid white";
 
 }
 

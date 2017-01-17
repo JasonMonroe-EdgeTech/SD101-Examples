@@ -34,12 +34,12 @@ img{
 }
 
 #declareWinner{
-    border: 1px solid white;
+    border: 2px solid white;
 
 }
 
 #declareWinner:hover{
-    border: 1px solid green;
+    border: 2px solid green;
     cursor: pointer;
     background-color: green;
     color:white;
