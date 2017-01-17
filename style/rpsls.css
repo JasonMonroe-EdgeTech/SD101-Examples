@@ -1,0 +1,46 @@
+.container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selects{
+  width: 200px;
+}
+
+img{
+  width: 200px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+}
+
+.choices{
+  transition: all .2s ease-in-out;
+  position: relative;
+}
+
+.choices:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+  z-index: 2;
+
+}
+
+.center{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#declareWinner{
+    border: 1px solid white;
+
+}
+
+#declareWinner:hover{
+    border: 1px solid green;
+    cursor: pointer;
+    background-color: green;
+    color:white;
+}

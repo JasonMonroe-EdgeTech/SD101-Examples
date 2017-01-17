@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/rpsls.css">
+    <script src="scripts/game.js"></script>
+    <title>Rock Paper Scissors Lizard Spock</title>
+</head>
+
+<body>
+    <div class="container">
+      <div class="center">
+        <h4 class="center text-center"><img id="imgCpuChoice"  src="images/rock.jpg" ></h4>
+          <br/>
+          <h3 class="center text-center" id="cpuScore">Computer</h3>
+        <h1 id="declareWinner" class="center text-center" onclick="playAgain();">&darr;Make a choice below&darr;</h1>
+         <h3 class="center text-center" id="playerScore">Player</h3>
+          <h4 class="center text-center"><img id="imgPlayerChoice"  src="images/userDefault.jpg" ></h4>
+      </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2">
+                <img id="card1" class="choices" src="images/rock.jpg" onclick="playerChose(1);"><br/>
+
+            </div>
+            <div class="col-sm-2">
+                <img id="card2" class="choices" src="images/paper.jpg" onclick="playerChose(2);"><br/>
+
+
+            </div>
+            <div class="col-sm-2">
+                <img id="card3" class="choices" src="images/scissors.jpg" onclick="playerChose(3);"><br/>
+
+            </div>
+            <div class="col-sm-2">
+                <img id="card4" class="choices" src="images/lizard.jpg" onclick="playerChose(4);"><br/>
+
+            </div>
+            <div class="col-sm-2">
+                <img id="card5" class="choices" src="images/spock.jpg" onclick="playerChose(5);"><br/>
+
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
