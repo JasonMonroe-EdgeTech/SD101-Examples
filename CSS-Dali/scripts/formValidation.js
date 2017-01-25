@@ -3,8 +3,8 @@ window.onload = function() {
         return validateForm();
     }
 
-    document.getElementById('txtCardNumber').addEventListener('keydown', ccInputMask);
-    document.getElementById('txtPhoneNumber').addEventListener('keydown', phoneInputMask);
+    document.getElementById('txtCardNumber').addEventListener('keyup', ccInputMask);
+    document.getElementById('txtPhoneNumber').addEventListener('keyup', phoneInputMask);
 
 }
 
@@ -60,7 +60,7 @@ function ccInputMask() {
 
 function phoneInputMask() {
     var phoneNumberTextbox = document.getElementById('txtPhoneNumber');
-    var unmaskedPhoneNum = cardNumberText.value.replace(/-/g, "").replace(/\(/g, "").replace(/)/g, "");
+    var unmaskedPhoneNum = cardNumberText.value.replace(/-/g, "").replace(/\(/g, "").replace(/\)/g, "");
 
 
     if(event.keyCode == 8){
