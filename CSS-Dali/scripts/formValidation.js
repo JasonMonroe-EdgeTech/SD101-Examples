@@ -3,8 +3,8 @@ window.onload = function() {
         return validateForm();
     }
 
-    document.getElementById('txtCardNumber').onkeyup = ccInputMask;
-    document.getElementById('txtPhoneNumber').onkeyup = phoneInputMask;
+    document.getElementById('txtCardNumber').onchange = ccInputMask;
+    document.getElementById('txtPhoneNumber').onchange = phoneInputMask;
 
 }
 
