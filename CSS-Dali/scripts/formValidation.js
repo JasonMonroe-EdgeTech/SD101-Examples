@@ -12,7 +12,7 @@ function validateForm() {
     //var document.getElementById('txt')
 }
 
-function ccInputMask() {
+function ccInputMask(event) {
 
 
     var cardNumberTextbox = document.getElementById('txtCardNumber');
