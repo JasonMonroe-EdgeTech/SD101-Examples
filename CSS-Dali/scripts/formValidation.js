@@ -1,15 +1,47 @@
 window.onload = function() {
-    document.getElementById('frmCheckout').onsubmit = function() {
-        return validateForm();
-    }
 
     document.getElementById('txtCardNumber').onkeyup =  ccInputMask;
     document.getElementById('txtPhoneNumber').onkeyup = phoneInputMask;
 
+    document.getElementById('frmCheckout').onsubmit = function() {
+        if(!isValidEmail()){
+          return false;
+        }
+        else if(!isValidPhone()){
+          return false;
+        }
+        else{
+          return true;
+        }
+    }
+
 }
 
-function validateForm() {
-    //var document.getElementById('txt')
+function isValidPhone(){
+  var phone = document.getElementById('txtPhoneNumber');
+  var rePhone = /((\(\d{3}\) ?)|(\d{3}-))?\d{3}-\d{4}/;
+
+  if(rePhone.test(phone.value)){
+    return true;
+  }
+  else{
+    phone.style.color = "red";
+    return false;
+  }
+
+}
+
+function isValidEmail(){
+  var email = document.getElementById('txtEmail');
+  var reEmail = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+  if(email.value.search(reEmail)==-1){
+    email.style.color = "red";
+    return false;
+  }
+  else{
+    return true;
+  }
 }
 
 function ccInputMask(event) {
