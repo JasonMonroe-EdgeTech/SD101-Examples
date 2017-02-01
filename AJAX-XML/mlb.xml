@@ -1,0 +1,146 @@
+<MLB>
+    <LEAGUE>
+        <LEAGUE_NAME>National</LEAGUE_NAME>
+        <DIVISION>
+            <DIVISION_NAME>East</DIVISION_NAME>
+            <TEAM>
+                <TEAM_CITY>Atlanta</TEAM_CITY>
+                <TEAM_NAME>Braves</TEAM_NAME>
+            </TEAM>
+            <TEAM>
+                <TEAM_CITY>Miami</TEAM_CITY>
+                <TEAM_NAME>Marlins</TEAM_NAME>
+            </TEAM>
+            <TEAM>
+                <TEAM_CITY>Washington</TEAM_CITY>
+                <TEAM_NAME>Nationals</TEAM_NAME>
+            </TEAM>
+            <TEAM>
+                <TEAM_CITY>New York</TEAM_CITY>
+                <TEAM_NAME>Mets</TEAM_NAME>
+            </TEAM>
+            <TEAM>
+                <TEAM_CITY>Philadelphia</TEAM_CITY>
+                <TEAM_NAME>Phillies</TEAM_NAME>
+            </TEAM>
+        </DIVISION>
+        <DIVISION>
+            <DIVISION_NAME>Central</DIVISION_NAME>
+            <TEAM>
+                <TEAM_CITY>Chicago</TEAM_CITY>
+                <TEAM_NAME>Cubs</TEAM_NAME>
+            </TEAM>
+            <TEAM>
+                <TEAM_CITY>Cincinatti</TEAM_CITY>
+                <TEAM_NAME>Reds</TEAM_NAME>
+            </TEAM>
+            <TEAM>
+                <TEAM_CITY>Milwaukee</TEAM_CITY>
+                <TEAM_NAME>Brewers</TEAM_NAME>
+            </TEAM>
+            <TEAM>
+                <TEAM_CITY>Pittsburgh</TEAM_CITY>
+                <TEAM_NAME>Pirates</TEAM_NAME>
+            </TEAM>
+            <TEAM>
+                <TEAM_CITY>St. Louis</TEAM_CITY>
+                <TEAM_NAME>Cardinals</TEAM_NAME>
+            </TEAM>
+        </DIVISION>
+        <DIVISION>
+            <DIVISION_NAME>West</DIVISION_NAME>
+            <TEAM>
+                <TEAM_CITY>Arizona</TEAM_CITY>
+                <TEAM_NAME>Diamondbacks</TEAM_NAME>
+            </TEAM>
+            <TEAM>
+                <TEAM_CITY>Colorado</TEAM_CITY>
+                <TEAM_NAME>Rockies</TEAM_NAME>
+            </TEAM>
+            <TEAM>
+                <TEAM_CITY>Los Angeles</TEAM_CITY>
+                <TEAM_NAME>Dodgers</TEAM_NAME>
+            </TEAM>
+            <TEAM>
+                <TEAM_CITY>San Diego</TEAM_CITY>
+                <TEAM_NAME>Padres</TEAM_NAME>
+            </TEAM>
+            <TEAM>
+                <TEAM_CITY>San Francisco</TEAM_CITY>
+                <TEAM_NAME>Giants</TEAM_NAME>
+            </TEAM>
+        </DIVISION>
+    </LEAGUE>
+    <LEAGUE>
+        <LEAGUE_NAME>American</LEAGUE_NAME>
+        <DIVISION>
+            <DIVISION_NAME>East</DIVISION_NAME>
+            <TEAM>
+                <TEAM_CITY>Baltimore</TEAM_CITY>
+                <TEAM_NAME>Orioles</TEAM_NAME>
+            </TEAM>
+            <TEAM>
+                <TEAM_CITY>Boston</TEAM_CITY>
+                <TEAM_NAME>Red Sox</TEAM_NAME>
+            </TEAM>
+            <TEAM>
+                <TEAM_CITY>New York</TEAM_CITY>
+                <TEAM_NAME>Yankees</TEAM_NAME>
+            </TEAM>
+            <TEAM>
+                <TEAM_CITY>Tampa Bay</TEAM_CITY>
+                <TEAM_NAME>Rays</TEAM_NAME>
+            </TEAM>
+            <TEAM>
+                <TEAM_CITY>Toronto</TEAM_CITY>
+                <TEAM_NAME>Blue Jays</TEAM_NAME>
+            </TEAM>
+        </DIVISION>
+        <DIVISION>
+            <DIVISION_NAME>Central</DIVISION_NAME>
+            <TEAM>
+                <TEAM_CITY>Chicago</TEAM_CITY>
+                <TEAM_NAME>White Sox</TEAM_NAME>
+            </TEAM>
+            <TEAM>
+                <TEAM_CITY>Kansas City</TEAM_CITY>
+                <TEAM_NAME>Royals</TEAM_NAME>
+            </TEAM>
+            <TEAM>
+                <TEAM_CITY>Detroit</TEAM_CITY>
+                <TEAM_NAME>Tigers</TEAM_NAME>
+            </TEAM>
+            <TEAM>
+                <TEAM_CITY>Cleveland</TEAM_CITY>
+                <TEAM_NAME>Indians</TEAM_NAME>
+            </TEAM>
+            <TEAM>
+                <TEAM_CITY>Minnesota</TEAM_CITY>
+                <TEAM_NAME>Twins</TEAM_NAME>
+            </TEAM>
+        </DIVISION>
+        <DIVISION>
+            <DIVISION_NAME>West</DIVISION_NAME>
+            <TEAM>
+                <TEAM_CITY>Houston</TEAM_CITY>
+                <TEAM_NAME>Astros</TEAM_NAME>
+            </TEAM>
+            <TEAM>
+                <TEAM_CITY>Los Angeles</TEAM_CITY>
+                <TEAM_NAME>Angels</TEAM_NAME>
+            </TEAM>
+            <TEAM>
+                <TEAM_CITY>Oakland</TEAM_CITY>
+                <TEAM_NAME>Athletics</TEAM_NAME>
+            </TEAM>
+            <TEAM>
+                <TEAM_CITY>Seattle</TEAM_CITY>
+                <TEAM_NAME>Mariners</TEAM_NAME>
+            </TEAM>
+            <TEAM>
+                <TEAM_CITY>Texas</TEAM_CITY>
+                <TEAM_NAME>Rangers</TEAM_NAME>
+            </TEAM>
+        </DIVISION>
+    </LEAGUE>
+</MLB>
